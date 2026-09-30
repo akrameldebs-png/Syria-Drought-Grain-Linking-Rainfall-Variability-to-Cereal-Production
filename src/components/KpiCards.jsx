@@ -26,7 +26,7 @@ function KpiCards({ summary }) {
         <Card
           icon={CloudRain}
           title="Drought Threshold"
-          value={`${summary.drought_threshold_mm.toFixed(1)} mm`}
+          value={`${summary.drought_threshold_mm} mm`}
           text="20th percentile of annual rainfall"
         />
 
@@ -40,14 +40,14 @@ function KpiCards({ summary }) {
         <Card
           icon={CloudRain}
           title="Wettest 10"
-          value={`${summary.top10_rain_avg_mm.toFixed(1)} mm`}
+          value={`${summary.top10_rain_avg_mm} mm`}
           text="average annual rainfall"
         />
 
         <Card
           icon={Wheat}
           title="Driest 10"
-          value={`${summary.bottom10_rain_avg_mm.toFixed(1)} mm`}
+          value={`${summary.bot10_rain_avg_mm} mm`}
           text="average annual rainfall"
         />
       </div>
