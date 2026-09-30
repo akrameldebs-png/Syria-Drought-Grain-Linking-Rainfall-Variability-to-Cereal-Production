@@ -7,9 +7,11 @@ function Hero() {
         <div className="max-w-4xl">
           <div className="mb-6 flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-900 text-white">
-              <Wheat size={21} />
+              <Wheat size={21} /> 
             </div>
-
+            <div className="flex w-20 items-center justify-center">
+              <img src="/FTL Syria.svg" alt="FTL Syria" />
+            </div>
             <span className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-800">
               AI4Climate · Team 9
             </span>
